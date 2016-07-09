@@ -1,0 +1,16 @@
+Sudoku Application Documentation
+
+Table of Contents:
+NumGen.java
+Board.java
+
+NumGen.java
+This class generates the 9x9 grid of numbers in the fashion of a sudoku board, in such a way that each row, column, and 3x3 sub section contains a unique number from 1 to 9.
+
+Class Members
+int[][] board - 	This two dimensional array holds the numbers that are generated. It is 		also used to make sure that there are no duplicates of numbers in each 		row, column, or section.
+
+Member Functions
+NumGen()
+	Constructor to start generating the numbers.
+
